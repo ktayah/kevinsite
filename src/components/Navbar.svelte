@@ -7,51 +7,58 @@
 </script>
 
 <div>
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item">CV</a>
+  <nav class="navbar" id="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item">CV</a>
 
-    <a 
-      role="button" 
-      class="navbar-burger" 
-      aria-label="menu" 
-      aria-expanded="false" 
-      data-target="navbarBasicExample" 
-      on:click={switchActive}>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-  </div>
-
-  <div class="navbar-menu">
-    <div class="navbar-end">
-      <a class="navbar-item">
-        about
-      </a>
-
-      <a class="navbar-item">
-        resume
-      </a>
-
-      <a class="navbar-item">
-        contact
-      </a>
+      <span
+        role="button" 
+        class="navbar-burger" 
+        aria-label="menu" 
+        aria-expanded="false" 
+        data-target="navbarBasicExample" 
+        on:click={switchActive}>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </span>
     </div>
-  </div>
-  <div class="modal {active && 'is-active'}">
-    <div class="modal-background"></div>
-    <div class="modal-content">
-      <p>Testing</p>
+
+    <div class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="#about">
+          about
+        </a>
+        <a class="navbar-item" href="#experience">
+          resume
+        </a>
+        <a class="navbar-item" href="#contact">
+          contact
+        </a>
+      </div>
     </div>
-    <button class="modal-close is-large" aria-label="close" on:click={switchActive}></button>
-  </div>
-</nav>
+    <div class="modal {active && 'is-active'}">
+      <div class="modal-background"></div>
+      <div class="modal-content">
+        <p class="white-text">about</p>
+        <p class="white-text">resume</p>
+        <p class="white-text">contact</p>
+      </div>
+      <button class="modal-close is-large" aria-label="close" on:click={switchActive}></button>
+    </div>
+  </nav>
 </div>
 
 
-<!-- <style lang="scss">
-  // @import "../assets/styles/global.scss";
+<style lang="scss">
+  @import "../assets/styles/global.scss";
 
-}
-</style> -->
+  #navbar {
+    display: flex;
+    width: 60%;
+  }
+
+  .white-text {
+    color: white;
+  }
+</style>

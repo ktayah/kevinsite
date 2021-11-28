@@ -1,12 +1,12 @@
-<div class="contact" id="contact">
-    <h2>contact</h2>
+<div class="education">
+    <h2>education</h2>
 
 </div>
 
 <style lang="scss">
     @import '../assets/styles/global.scss';
 
-    .contact {
+    .education {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
