@@ -1,32 +1,35 @@
+@charset "utf-8";
+@import "../../../node_modules/bulma/bulma.sass";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
 $background: #D8E9DD;
-$font: #6290C3;
+$font: #000000;
 $teal: #6A8D92;
 $accent: #F7934C;
 $accent-secondary: #CC5803;
 
 $modal-content-width: '100%';
+$modal-background-background-color: $background;
 
 html,
 body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: EBGaramound, sans-serif;
+    font-family: 'EB Garamond';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     background-color: $background;
   }
 
-p, h1, h2, h3, h4, h5, h6 {
-    color: #183059;
-    font-weight: 600;
+h1, h2, h3, h4, h5, h6 {
+    color: $font;
+    font-weight: bold;
 }
 
 p {
     font-size: x-large;
-}
-
-h1 {
-    font-size: 52px;
 }
