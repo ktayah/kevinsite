@@ -4,8 +4,6 @@
 </div>
 
 <style lang="scss">
-    @import '../assets/styles/global.scss';
-
     .achievements {
         display: flex;
         flex-direction: column;

@@ -29,7 +29,7 @@
 </main>
 
 <style lang="scss">
-  @import './assets/styles/global.scss';
+	@import './assets/styles/global.scss';
 
 	main {
 		text-align: center;
@@ -49,33 +49,6 @@
 	#image {
 		height: 100%;
 		width: auto;
-	}
-
-	#overlay {
-		background-color: $accent;
-	}
-
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	.header-container {
-		display: flex;
-		flex-direction: row;
-		flex: 1;
-		height: 30rem;
-		background-color: $background;
-
-		.inner-header-container {
-			display: flex;
-			flex: 1;
-			justify-content: center;
-			align-items: center;
-			flex-direction: column;
-		}
 	}
 
 	@media (min-width: 640px) {
