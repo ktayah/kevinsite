@@ -30,7 +30,7 @@
 
 <style lang="scss">
 	@import './assets/styles/global.scss';
-
+	
 	main {
 		text-align: center;
 		padding: 1em;
