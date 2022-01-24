@@ -1,5 +1,5 @@
 <div class="achievements">
-    <h2>key achievements</h2>
+    <p class="header-text">key achievements</p>
 
 </div>
 
@@ -10,5 +10,15 @@
         align-items: flex-start;
         justify-content: center;
         height: 100%;
+        width: 50%;
+    }
+
+    .header-text {
+        font-size: 48px;
+        width: 100%;
+        border-bottom-width: 1px;
+        border-bottom-color: black;
+        border-bottom-style: solid;
+        text-align: left;
     }
 </style>
