@@ -1,4 +1,5 @@
 <script>
+	import 'bulma/css/bulma.scss'
 	import Navbar from './components/Navbar.svelte';
 	import Main from './components/Main.svelte';
 	import About from './components/About.svelte';
@@ -28,9 +29,7 @@
 	</div>
 </main>
 
-<style lang="scss">
-	@import './assets/styles/global.scss';
-	
+<style lang="scss">	
 	main {
 		text-align: center;
 		padding: 1em;

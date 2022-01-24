@@ -1,5 +1,4 @@
 @charset "utf-8";
-@import "../../../node_modules/bulma/bulma.sass";
 
 $background: #D8E9DD;
 $font: #000000;
@@ -9,22 +8,3 @@ $accent-secondary: #CC5803;
 
 $modal-content-width: '100%';
 $modal-background-background-color: $background;
-
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-  }
-
-h1, h2, h3, h4, h5, h6 {
-    color: $font;
-    font-weight: bold;
-}
-
-p {
-    font-size: x-large;
-}
