@@ -7,7 +7,7 @@
 </script>
 
 <div>
-  <nav class="navbar" id="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar nav" id="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item">CV</a>
 
@@ -51,10 +51,9 @@
 
 
 <style lang="scss">
-  @import "../assets/styles/global.scss";
-
-  #navbar {
-    display: flex;
+  .nav {
+    position: fixed;
+    top: 0;
     width: 60%;
   }
 
