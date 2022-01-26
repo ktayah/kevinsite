@@ -7,7 +7,7 @@
 </script>
 
 <div>
-  <nav class="navbar nav" id="navbar" role="navigation" aria-label="main navigation">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
       <a class="navbar-item">CV</a>
 
@@ -51,12 +51,6 @@
 
 
 <style lang="scss">
-  .nav {
-    position: fixed;
-    top: 0;
-    width: 60%;
-  }
-
   .white-text {
     color: white;
   }

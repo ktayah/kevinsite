@@ -8,7 +8,12 @@
 	import Education from './components/Education.svelte';
 	import Achievements from './components/Achievements.svelte';
 	import Contact from './components/Contact.svelte';
-	let me = 'static/images/me.png';
+
+	let modalActive = true;
+
+	function switchModalActive() {
+		modalActive = !modalActive;
+	}
 </script>
 
 <main>
@@ -23,9 +28,20 @@
 			<Achievements />
 			<Contact />
 		</div>
+		<div class="column is-hidden-touch">
+			<div class="image" />
+		</div>
 	</div>
-	<div id="fixed" class="column is-hidden-touch" >
-		<img src={me} alt="me" id="image" />
+	<!-- Temporary code -->
+	<div class="modal {modalActive && 'is-active'}">
+		<div class="modal-background" on:click={switchModalActive} />
+		<div class="modal-content">
+			<div class="box">
+				<p class="article my-3">Pardon my appearance, this website is still a work in-progress.</p>
+				<button class="button is-light is-rounded " on:click={switchModalActive}>Okay</button>
+			</div>
+		</div>
+		<button class="modal-close is-large" aria-label="close" on:click={switchModalActive} />
 	</div>
 </main>
 
@@ -37,17 +53,16 @@
 		margin: 0 auto;
 	}
 
-	#fixed {
+	.image {
 		position: fixed;
 		bottom: 0;
 		top: 0;
 		right: 0;
 		padding: 0;
-	}
-
-	#image {
 		height: 100%;
-		width: auto;
+		width: 50%;
+		background-image: url('/static/images/me.png');
+		background-size: cover;
 	}
 
 	@media (min-width: 640px) {
