@@ -1,26 +1,51 @@
 <script>
+	import 'bulma/css/bulma.scss'
 	import Navbar from './components/Navbar.svelte';
+	import Main from './components/Main.svelte';
+	import About from './components/About.svelte';
+	import Skills from './components/Skills.svelte';
+	import Experience from './components/Experience.svelte';
+	import Education from './components/Education.svelte';
+	import Achievements from './components/Achievements.svelte';
+	import Contact from './components/Contact.svelte';
+
+	let modalActive = true;
+
+	function switchModalActive() {
+		modalActive = !modalActive;
+	}
 </script>
 
 <main>
 	<div class="columns is-desktop">
 		<div class="column">
 			<Navbar />
+			<Main />
+			<About />
+			<Skills />
+			<Experience />
+			<Education />
+			<Achievements />
+			<Contact />
 		</div>
 		<div class="column is-hidden-touch">
-			<h1 class="title">
-				Hello World
-			  </h1>
-			  <p class="subtitle">
-				My first website with <strong>Bulma</strong>!
-			  </p> 
+			<div class="image" />
 		</div>
+	</div>
+	<!-- Temporary code -->
+	<div class="modal {modalActive && 'is-active'}">
+		<div class="modal-background" on:click={switchModalActive} />
+		<div class="modal-content">
+			<div class="box">
+				<p class="article my-3">Pardon my appearance, this website is still a work in-progress.</p>
+				<button class="button is-light is-rounded " on:click={switchModalActive}>Okay</button>
+			</div>
+		</div>
+		<button class="modal-close is-large" aria-label="close" on:click={switchModalActive} />
 	</div>
 </main>
 
-<style lang="scss">
-  @import './assets/styles/global.scss';
-
+<style lang="scss">	
 	main {
 		text-align: center;
 		padding: 1em;
@@ -28,27 +53,16 @@
 		margin: 0 auto;
 	}
 
-	h1 {
-		color: #ff3e00;
-		text-transform: uppercase;
-		font-size: 4em;
-		font-weight: 100;
-	}
-
-	.header-container {
-		display: flex;
-		flex-direction: row;
-		flex: 1;
-		height: 30rem;
-		background-color: $background;
-
-		.inner-header-container {
-			display: flex;
-			flex: 1;
-			justify-content: center;
-			align-items: center;
-			flex-direction: column;
-		}
+	.image {
+		position: fixed;
+		bottom: 0;
+		top: 0;
+		right: 0;
+		padding: 0;
+		height: 100%;
+		width: 50%;
+		background-image: url('/static/images/me.png');
+		background-size: cover;
 	}
 
 	@media (min-width: 640px) {
