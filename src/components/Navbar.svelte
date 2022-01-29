@@ -37,11 +37,17 @@
     </div>
   </div>
   <div class="modal {active && 'is-active'}">
-    <div class="modal-background"></div>
+    <div class="modal-background" on:click={switchActive} />
     <div class="modal-content">
-      <p class="white-text">about</p>
-      <p class="white-text">resume</p>
-      <p class="white-text">contact</p>
+      <a href="#about" on:click={switchActive}>
+        <p class="white-text">about</p>
+      </a>
+      <a href="#experience" on:click={switchActive}>
+        <p class="white-text">resume</p>
+      </a>
+      <a href="#contact" on:click={switchActive}>
+        <p class="white-text">contact</p>
+      </a>
     </div>
     <button class="modal-close is-large" aria-label="close" on:click={switchActive}></button>
   </div>
@@ -52,6 +58,12 @@
   .navbar {
     width: 50%;
     padding: 0rem 1rem;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .navbar {
+      width: 100%;
+    }
   }
   .white-text {
     color: white;
