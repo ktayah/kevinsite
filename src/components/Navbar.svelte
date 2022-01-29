@@ -37,11 +37,17 @@
     </div>
   </div>
   <div class="modal {active && 'is-active'}">
-    <div class="modal-background"></div>
+    <div class="modal-background" on:click={switchActive} />
     <div class="modal-content">
-      <p class="white-text">about</p>
-      <p class="white-text">resume</p>
-      <p class="white-text">contact</p>
+      <a href="#about" on:click={switchActive}>
+        <p class="menu-option">about</p>
+      </a>
+      <a href="#experience" on:click={switchActive}>
+        <p class="menu-option">resume</p>
+      </a>
+      <a href="#contact" on:click={switchActive}>
+        <p class="menu-option">contact</p>
+      </a>
     </div>
     <button class="modal-close is-large" aria-label="close" on:click={switchActive}></button>
   </div>
@@ -49,11 +55,27 @@
 
 
 <style lang="scss">
+  @import '../assets/styles/global.scss';
+
   .navbar {
     width: 50%;
     padding: 0rem 1rem;
   }
-  .white-text {
+
+  @media only screen and (max-width: 1024px) {
+    .navbar {
+      width: 100%;
+    }
+  }
+
+  .menu-option {
     color: white;
+    width: 30%;
+    margin: 2rem 0rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px $accent solid;
+    margin-left: auto;
+    margin-right: auto;
   }
 </style>

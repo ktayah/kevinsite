@@ -36,7 +36,7 @@
 	<div class="modal {modalActive && 'is-active'}">
 		<div class="modal-background" on:click={switchModalActive} />
 		<div class="modal-content">
-			<div class="box">
+			<div class="box mx-4">
 				<p class="article my-3">Pardon my appearance, this website is still a work in-progress.</p>
 				<button class="button is-light is-rounded " on:click={switchModalActive}>Okay</button>
 			</div>
@@ -49,7 +49,6 @@
 	main {
 		text-align: center;
 		padding: 1em;
-		max-width: 240px;
 		margin: 0 auto;
 	}
 
