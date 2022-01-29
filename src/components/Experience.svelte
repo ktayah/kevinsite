@@ -1,18 +1,8 @@
-<div class="experience" id="experience">
+<section id="experience">
     <p class="header-text">work experience</p>
-
-</div>
+</section>
 
 <style lang="scss">
-    .experience {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        height: 100%;
-        width: 50%;
-    }
-
     .header-text {
         font-size: 48px;
         width: 100%;

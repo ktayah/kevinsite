@@ -1,18 +1,8 @@
-<div class="achievements">
+<section>
     <p class="header-text">key achievements</p>
-
-</div>
+</section>
 
 <style lang="scss">
-    .achievements {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        height: 100%;
-        width: 50%;
-    }
-
     .header-text {
         font-size: 48px;
         width: 100%;

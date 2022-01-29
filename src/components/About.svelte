@@ -1,24 +1,19 @@
-<div class="about" id="about">
-    <p class="header-text">about</p>
-
-</div>
+<section id="about">
+    <p class="text header-text">about</p>
+</section>
 
 <style lang="scss">
-    .about {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        height: 100%;
-        width: 50%;
+    .text {
+        text-align: left;
+        width: 90%;
     }
 
     .header-text {
         font-size: 48px;
-        width: 100%;
         border-bottom-width: 1px;
         border-bottom-color: black;
         border-bottom-style: solid;
         text-align: left;
+        margin-bottom: 1rem;
     }
 </style>

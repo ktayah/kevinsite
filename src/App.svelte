@@ -16,7 +16,7 @@
 	}
 </script>
 
-<main>
+<main class="has-navbar-fixed-top">
 	<div class="columns is-desktop">
 		<div class="column">
 			<Navbar />

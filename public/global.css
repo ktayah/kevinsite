@@ -12,9 +12,7 @@ html, body {
 	font-family: 'EB Garamond', serif;
     -moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
-}
-
-html {
+	scroll-snap-type: y mandatory;
 	scroll-behavior: smooth;
 }
 
@@ -54,6 +52,17 @@ button {
 	color: #333;
 	background-color: #f4f4f4;
 	outline: none;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	height: 100vh;
+	scroll-snap-align: center;
+	padding-right: 2rem;
+	padding-left: 2rem;
 }
 
 button:disabled {
