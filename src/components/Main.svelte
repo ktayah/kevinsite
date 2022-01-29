@@ -4,7 +4,6 @@
   <p class="medium-font">Senior Full Stack Developer</p>
   <p><span class="bold">Phone:</span> 267-546-7901</p>
   <p><span class="bold">Email:</span> kevintayah@gmail.com</p>
-  <p><span class="bold">Address:</span> 2428 Poplar St, Philadelphia PA</p>
 </section>
 
 <style lang="scss">
