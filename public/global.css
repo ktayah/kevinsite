@@ -61,8 +61,13 @@ section {
 	justify-content: center;
 	height: 100vh;
 	scroll-snap-align: center;
-	padding-right: 2rem;
-	padding-left: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+	section {
+		padding-right: 2rem;
+		padding-left: 2rem;
+	}
 }
 
 button:disabled {
