@@ -1,30 +1,26 @@
 <section>
     <p class="header-text">skills & expertise</p>
     <div class="columns skills">
-        <div class="column">
-            <ul>
-                <li>HTML/CSS/JavaScript</li>
-                <li>React Native</li>
-                <li>Electron</li>
-                <li>Phoenix</li>
-                <li>Python</li>
-                <li>Rust</li>
-                <li>MongoDB</li>
-                <li>Git</li>
-            </ul>
-        </div>
-        <div class="column">
-            <ul>
-                <li>React</li>
-                <li>Redux</li>
-                <li>Svelte</li>
-                <li>Node.js</li>
-                <li>C++</li>
-                <li>Elixir</li>
-                <li>Postgres</li>
-                <li>FFMPEG</li>
-            </ul>
-        </div>
+        <ul class="column">
+            <li>HTML/CSS/JavaScript</li>
+            <li>React Native</li>
+            <li>Electron</li>
+            <li>Phoenix</li>
+            <li>Python</li>
+            <li>Rust</li>
+            <li>MongoDB</li>
+            <li>Git</li>
+        </ul>
+        <ul class="column">
+            <li>React</li>
+            <li>Redux</li>
+            <li>Svelte</li>
+            <li>Node.js</li>
+            <li>C++</li>
+            <li>Elixir</li>
+            <li>Postgres</li>
+            <li>FFMPEG</li>
+        </ul>
     </div>
 </section>
 
@@ -41,5 +37,6 @@
 
     .skills {
         width: 100%;
+        display: flex;
     }
 </style>
