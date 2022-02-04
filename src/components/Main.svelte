@@ -4,6 +4,11 @@
   <p class="text medium-font">Software Engineer</p>
   <p class="text"><span class="bold">Phone:</span> 267-546-7901</p>
   <p class="text"><span class="bold">Email:</span> kevintayah@gmail.com</p>
+
+  <div class="my-5">
+    <a class="link orange right-line pr-2" href="https://www.linkedin.com/in/ktayah/">LinkedIn</a>
+    <a class="link orange pl-2" href="https://github.com/ktayah">GitHub</a>
+  </div>
 </section>
 
 <style lang="scss">
@@ -37,5 +42,9 @@
 
   .orange {
     color: $accent;
+  }
+
+  .right-line {
+    border-right: 1px black solid;
   }
 </style>
