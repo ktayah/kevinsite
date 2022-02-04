@@ -29,10 +29,10 @@
         about
       </a>
       <a class="navbar-item" href="#experience">
-        resume
+        experience
       </a>
-      <a class="navbar-item" href="#contact">
-        contact
+      <a class="navbar-item" href="#achievements">
+        projects
       </a>
     </div>
   </div>

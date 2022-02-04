@@ -7,7 +7,6 @@
 	import Experience from './components/Experience.svelte';
 	import Education from './components/Education.svelte';
 	import Achievements from './components/Achievements.svelte';
-	import Contact from './components/Contact.svelte';
 
 	let modalActive = true;
 
@@ -26,7 +25,6 @@
 			<Experience />
 			<Education />
 			<Achievements />
-			<Contact />
 		</div>
 		<div class="column is-hidden-touch">
 			<div class="image" />
