@@ -25,6 +25,9 @@
 
   <div class="navbar-menu">
     <div class="navbar-end">
+      <a class="navbar-item" href="#info">
+        info
+      </a>
       <a class="navbar-item" href="#about">
         about
       </a>
@@ -39,6 +42,9 @@
   <div class="modal {active && 'is-active'}">
     <div class="modal-background" on:click={switchActive} />
     <div class="modal-content">
+      <a href="#info" on:click={switchActive}>
+        <p class="menu-option">info</p>
+      </a>
       <a href="#about" on:click={switchActive}>
         <p class="menu-option">about</p>
       </a>

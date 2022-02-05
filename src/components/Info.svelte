@@ -1,4 +1,4 @@
-<section>
+<section id="info">
   <h1 class="text big-font">I<span class="orange">’</span>m</h1>
   <h1 class="text big-font">Kevin Tayah<span class="orange">.</span></h1>
   <p class="text medium-font">Software Engineer</p>
