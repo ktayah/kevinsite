@@ -60,19 +60,27 @@
   </div>
   <div class="modal {active && 'is-active'}">
     <div class="modal-background" on:click={switchActive} />
-    <div class="modal-content">
-      <a href="#info" on:click={switchActive}>
-        <p class="menu-option">info</p>
-      </a>
-      <a href="#about" on:click={switchActive}>
-        <p class="menu-option">about</p>
-      </a>
-      <a href="#experience" on:click={switchActive}>
-        <p class="menu-option">resume</p>
-      </a>
-      <a href="#contact" on:click={switchActive}>
-        <p class="menu-option">contact</p>
-      </a>
+    <div class="modal-content is-flex is-flex-direction-column is-justify-content-space-around">
+      <div>
+        <a href="#info" on:click={switchActive}>
+          <span class="menu-option">info</span>
+        </a>
+      </div>
+      <div>
+        <a href="#about" on:click={switchActive}>
+          <span class="menu-option">about</span>
+        </a>
+      </div>
+      <div>
+        <a href="#experience" on:click={switchActive}>
+          <span class="menu-option">resume</span>
+        </a>
+      </div>
+      <div>
+        <a href="#contact" on:click={switchActive}>
+          <span class="menu-option">contact</span>
+        </a>
+      </div>
     </div>
     <button class="modal-close is-large" aria-label="close" on:click={switchActive}></button>
   </div>
@@ -93,14 +101,15 @@
     }
   }
 
+  .modal-content {
+    height: 50vh
+  }
+
   .menu-option {
     color: white;
-    width: 30%;
     margin: 2rem 0rem;
     text-align: center;
     padding-bottom: 0.5rem;
     border-bottom: 1px $accent solid;
-    margin-left: auto;
-    margin-right: auto;
   }
 </style>
