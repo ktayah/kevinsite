@@ -4,6 +4,7 @@ import resolve from '@rollup/plugin-node-resolve';
 import livereload from 'rollup-plugin-livereload';
 import { terser } from 'rollup-plugin-terser';
 import sveltePreprocess from 'svelte-preprocess';
+import replace from '@rollup/plugin-replace';
 import css from 'rollup-plugin-css-only';
 
 const production = !process.env.ROLLUP_WATCH;
@@ -38,6 +39,10 @@ export default {
 		file: 'public/build/bundle.js'
 	},
 	plugins: [
+		replace({
+			'process.env.PDF_KEY': production ? "eeec26b559a3462ea4e19799913d22d4" : "802af1cccde747acbd720bef2460d02d",
+			preventAssignment: true,
+		}),
 		svelte({
 			preprocess: sveltePreprocess({
 				sourceMap: !production,
