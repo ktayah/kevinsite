@@ -4,11 +4,30 @@
   function switchActive() {
     active = !active;
   }
+
+  function openCV() {
+    const adobeDCView = new AdobeDC.View({clientId: "process.env.PDF_KEY"});
+
+    adobeDCView.previewFile({
+        content: { location: { url: "static/pdf/resume.pdf" } },
+        metaData: {
+          fileName: "Kevin's Resume.pdf"
+        }
+    }, {
+      embedMode: "LIGHT_BOX",
+      defaultViewMode: "FIT_PAGE"
+    });
+  }
+
+  // Wait will adobe pdf viewer is ready to enable CV button
+  document.addEventListener("adobe_dc_view_sdk.ready", function () {
+    document.getElementById("view-pdf-btn").disabled = false;
+  });
 </script>
 
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <a class="navbar-item">CV</a>
+    <a class="navbar-item" on:click={openCV} id="view-pdf-btn" disabled>CV</a>
 
     <span
       role="button" 
