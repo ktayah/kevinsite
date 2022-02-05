@@ -1,12 +1,12 @@
 <script>
 	import 'bulma/css/bulma.scss'
 	import Navbar from './components/Navbar.svelte';
-	import Main from './components/Main.svelte';
+	import Info from './components/Info.svelte';
 	import About from './components/About.svelte';
 	import Skills from './components/Skills.svelte';
 	import Experience from './components/Experience.svelte';
 	import Education from './components/Education.svelte';
-	import Achievements from './components/Achievements.svelte';
+	import Projects from './components/Projects.svelte';
 
 	let modalActive = true;
 
@@ -19,12 +19,12 @@
 	<div class="columns is-desktop">
 		<div class="column">
 			<Navbar />
-			<Main />
+			<Info />
 			<About />
 			<Skills />
 			<Experience />
 			<Education />
-			<Achievements />
+			<Projects />
 		</div>
 		<div class="column is-hidden-touch">
 			<div class="image" />

@@ -31,7 +31,7 @@
       <a class="navbar-item" href="#experience">
         experience
       </a>
-      <a class="navbar-item" href="#achievements">
+      <a class="navbar-item" href="#projects">
         projects
       </a>
     </div>

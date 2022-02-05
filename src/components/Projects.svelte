@@ -1,5 +1,5 @@
-<section id="achievements">
-    <p class="header-text">key achievements</p>
+<section id="projects">
+    <p class="header-text">projects</p>
 </section>
 
 <style lang="scss">
