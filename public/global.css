@@ -54,20 +54,17 @@ button {
 	outline: none;
 }
 
-section {
+.page {
+	height: 100vh;
+	scroll-snap-align: center;
+	padding-left: 2rem;
+}
+
+.page-info {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
 	justify-content: center;
-	height: 100vh;
-	scroll-snap-align: center;
-}
-
-@media only screen and (min-width: 768px) {
-	section {
-		padding-right: 2rem;
-		padding-left: 2rem;
-	}
 }
 
 button:disabled {
