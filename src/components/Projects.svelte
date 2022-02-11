@@ -1,14 +1,65 @@
 <section id="projects">
-    <p class="header-text">projects</p>
+  <p class="header-text">projects</p>
+
+  <div class="block content">
+    <p class="is-size-5 has-text-weight-bold has-text-left">
+      Advent of Code 2021, , December 2021 - Present
+    </p>
+    <ul class="is-text-left">
+      <li>
+        <b><i>Skills and technologies:</i></b> Rust
+      </li>
+      <li>
+        Solved multiple daily-released coding puzzles ranging in difficulty and
+        requiring multiple types of algorithms.
+      </li>
+      <li>
+        Code available <a href="https://github.com/ktayah/kim-invocing">here</a
+        >.
+      </li>
+    </ul>
+  </div>
+
+  <div class="block content">
+    <p class="is-size-5 has-text-weight-bold has-text-left">
+      Drexel Weekend Warriors Club Website, June 2019 - June 2021
+    </p>
+    <ul class="is-text-left">
+      <li>
+        <b><i>Skills and technologies:</i></b> Next.js, Redux, Strapi, AWS EC2
+      </li>
+      <li>
+        Full-stack website made for the Weekend Warriors, a club that conducts
+        guided outdoor trips at Drexel University, to advertise trips and allow
+        for member sign-ups.
+      </li>
+      <li>
+        Designed, developed, and deployed website with a complete CMS system to
+        allow client to fully customize website. >.
+      </li>
+      <li>Up to 1000 users have signed up for trips via this website.</li>
+      <li>
+        Code available <a
+          href="https://github.com/ktayah/drexelWeekendWarriorsSite">here</a
+        >.
+      </li>
+    </ul>
+  </div>
 </section>
 
 <style lang="scss">
-    .header-text {
-        font-size: 48px;
-        width: 100%;
-        border-bottom-width: 1px;
-        border-bottom-color: black;
-        border-bottom-style: solid;
-        text-align: left;
-    }
+  @import "../assets/styles/global.scss";
+
+  .header-text {
+    font-size: 48px;
+    width: 100%;
+    border-bottom-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    text-align: left;
+  }
+
+  .orange {
+    color: $accent;
+  }
 </style>
