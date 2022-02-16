@@ -1,7 +1,7 @@
 <section id="experience">
-  <p class="header-text">work experience</p>
+  <p class="header-text mb-5">work experience</p>
   <div class="block content has-text-left">
-    <p class="is-size-5 has-text-weight-bold">
+    <p class="is-size-5 has-text-weight-bold mb-0">
       VP of Engineering, Wolf Financial, Philadelphia, PA
     </p>
     <p class="is-size-6 orange">March 2021 - Present</p>
@@ -26,7 +26,7 @@
   </div>
 
   <div class="block content has-text-left">
-    <p class="is-size-5 has-text-weight-bold">
+    <p class="is-size-5 has-text-weight-bold mb-0">
       Software Engineer at Wolf Financial, Philadelphia, PA
     </p>
     <p class="is-size-6 orange">June 2020 - March 2021</p>
@@ -53,7 +53,7 @@
   </div>
 
   <div class="block content has-text-left">
-    <p class="is-size-5 has-text-weight-bold">
+    <p class="is-size-5 has-text-weight-bold mb-0">
       Software Engineer Contractor at Bond Cleaners & Tailor, Glenside, PA
     </p>
     <p class="is-size-6 orange">October 2021 - November 2021</p>
