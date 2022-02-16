@@ -6,17 +6,28 @@
   }
 
   function openCV() {
-    const adobeDCView = new AdobeDC.View({clientId: "process.env.PDF_KEY"});
+    const keys = {
+      localhost: "802af1cccde747acbd720bef2460d02d",
+      "ktayah.com": "eeec26b559a3462ea4e19799913d22d4",
+      "kevintayah.com": "1c2403d943354eb58cc423ddf4952376",
+    };
 
-    adobeDCView.previewFile({
+    const adobeDCView = new AdobeDC.View({
+      clientId: keys[window.location.hostname],
+    });
+
+    adobeDCView.previewFile(
+      {
         content: { location: { url: "static/pdf/resume.pdf" } },
         metaData: {
-          fileName: "Kevin's Resume.pdf"
-        }
-    }, {
-      embedMode: "LIGHT_BOX",
-      defaultViewMode: "FIT_PAGE"
-    });
+          fileName: "Kevin's Resume.pdf",
+        },
+      },
+      {
+        embedMode: "LIGHT_BOX",
+        defaultViewMode: "FIT_PAGE",
+      }
+    );
   }
 
   // Wait will adobe pdf viewer is ready to enable CV button
@@ -30,37 +41,32 @@
     <a class="navbar-item" on:click={openCV} id="view-pdf-btn" disabled>CV</a>
 
     <span
-      role="button" 
-      class="navbar-burger" 
-      aria-label="menu" 
-      aria-expanded="false" 
-      data-target="navbarBasicExample" 
-      on:click={switchActive}>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
+      role="button"
+      class="navbar-burger"
+      aria-label="menu"
+      aria-expanded="false"
+      data-target="navbarBasicExample"
+      on:click={switchActive}
+    >
+      <span aria-hidden="true" />
+      <span aria-hidden="true" />
+      <span aria-hidden="true" />
     </span>
   </div>
 
   <div class="navbar-menu">
     <div class="navbar-end">
-      <a class="navbar-item" href="#info">
-        info
-      </a>
-      <a class="navbar-item" href="#about">
-        about
-      </a>
-      <a class="navbar-item" href="#experience">
-        experience
-      </a>
-      <a class="navbar-item" href="#projects">
-        projects
-      </a>
+      <a class="navbar-item" href="#info"> info </a>
+      <a class="navbar-item" href="#about"> about </a>
+      <a class="navbar-item" href="#experience"> experience </a>
+      <a class="navbar-item" href="#projects"> projects </a>
     </div>
   </div>
   <div class="modal {active && 'is-active'}">
     <div class="modal-background" on:click={switchActive} />
-    <div class="modal-content is-flex is-flex-direction-column is-justify-content-space-around">
+    <div
+      class="modal-content is-flex is-flex-direction-column is-justify-content-space-around"
+    >
       <div>
         <a href="#info" on:click={switchActive}>
           <span class="menu-option">info</span>
@@ -82,13 +88,16 @@
         </a>
       </div>
     </div>
-    <button class="modal-close is-large" aria-label="close" on:click={switchActive}></button>
+    <button
+      class="modal-close is-large"
+      aria-label="close"
+      on:click={switchActive}
+    />
   </div>
 </nav>
 
-
 <style lang="scss">
-  @import '../assets/styles/global.scss';
+  @import "../assets/styles/global.scss";
 
   .navbar {
     width: 50%;
@@ -102,7 +111,7 @@
   }
 
   .modal-content {
-    height: 50vh
+    height: 50vh;
   }
 
   .menu-option {
