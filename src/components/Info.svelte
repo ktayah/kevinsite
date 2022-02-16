@@ -13,6 +13,10 @@
 
 <style lang="scss">
   @import '../assets/styles/global.scss';
+
+  #info {
+    height: 100vh;
+  }
   
   .text {
     text-align: left;
