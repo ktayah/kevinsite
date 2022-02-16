@@ -74,6 +74,12 @@
         Drastically improved client's business efficiency by eliminating the
         need to manually invoice customers
       </li>
+      <li>
+        Code available <a
+          class="orange is-size-6"
+          href="https://github.com/ktayah/kim-invocing">here</a
+        >.
+      </li>
     </ul>
   </div>
 </section>

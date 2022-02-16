@@ -2,6 +2,26 @@
   <p class="header-text mb-5">projects</p>
 
   <div class="block content has-text-left">
+    <p class="is-size-5 has-text-weight-bold mb-0">Personal Website</p>
+    <p class="is-size-6 orange">January 2022 - Present</p>
+    <ul>
+      <li>
+        <b><i>Skills and technologies:</i></b> Svelte, Bulma, SCSS, Vercel
+      </li>
+      <li>
+        Learned Svelte in 2 weeks to build personal website from scratch; also
+        used the Bulma CSS framework and Vercel for deployment.
+      </li>
+      <li>
+        Code available <a
+          class="orange is-size-6"
+          href="https://github.com/ktayah/kevinsite">here</a
+        >.
+      </li>
+    </ul>
+  </div>
+
+  <div class="block content has-text-left">
     <p class="is-size-5 has-text-weight-bold mb-0">Advent of Code 2021</p>
     <p class="is-size-6 orange">December 2021 - Present</p>
     <ul>
@@ -13,7 +33,9 @@
         requiring multiple types of algorithms.
       </li>
       <li>
-        Code available <a href="https://github.com/ktayah/kim-invocing">here</a
+        Code available <a
+          class="orange is-size-6"
+          href="https://github.com/ktayah/advent_of_code_2021">here</a
         >.
       </li>
     </ul>
@@ -40,6 +62,7 @@
       <li>Up to 1000 users have signed up for trips via this website.</li>
       <li>
         Code available <a
+          class="orange is-size-6"
           href="https://github.com/ktayah/drexelWeekendWarriorsSite">here</a
         >.
       </li>
