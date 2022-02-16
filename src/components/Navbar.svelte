@@ -8,10 +8,9 @@
   function openCV() {
     const keys = {
       localhost: "802af1cccde747acbd720bef2460d02d",
-      "ktayah.com": "eeec26b559a3462ea4e19799913d22d4",
-      "kevintayah.com": "1c2403d943354eb58cc423ddf4952376",
+      "www.ktayah.com": "eeec26b559a3462ea4e19799913d22d4",
+      "www.kevintayah.com": "1c2403d943354eb58cc423ddf4952376",
     };
-    console.log(window.location.hostname);
     const adobeDCView = new AdobeDC.View({
       clientId: keys[window.location.hostname],
     });
