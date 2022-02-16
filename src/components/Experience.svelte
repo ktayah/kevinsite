@@ -1,11 +1,11 @@
 <section id="experience">
   <p class="header-text">work experience</p>
-  <div class="block content">
-    <p class="is-size-5 has-text-weight-bold has-text-left">
+  <div class="block content has-text-left">
+    <p class="is-size-5 has-text-weight-bold">
       VP of Engineering, Wolf Financial, Philadelphia, PA
     </p>
-    <p class="is-size-6 has-text-left orange">March 2021 - Present</p>
-    <ul class="is-text-left">
+    <p class="is-size-6 orange">March 2021 - Present</p>
+    <ul>
       <li>
         Coordinated closely with designers and board members to plan timelines
         and task lists
@@ -25,12 +25,12 @@
     </ul>
   </div>
 
-  <div class="block content">
-    <p class="is-size-5 has-text-weight-bold has-text-left">
+  <div class="block content has-text-left">
+    <p class="is-size-5 has-text-weight-bold">
       Software Engineer at Wolf Financial, Philadelphia, PA
     </p>
-    <p class="is-size-6 has-text-left orange">June 2020 - March 2021</p>
-    <ul class="is-text-left">
+    <p class="is-size-6 orange">June 2020 - March 2021</p>
+    <ul>
       <li>
         <b><i>Skills and technologies:</i></b> React Native, Node.js, MongoDB, Plaid,
         Alpaca, Finnhub, Firebase, FFMPEG, D3.js, Jest, AWS Lambda, and AWS Elastic
@@ -52,12 +52,12 @@
     </ul>
   </div>
 
-  <div class="block content">
-    <p class="is-size-5 has-text-weight-bold has-text-left">
+  <div class="block content has-text-left">
+    <p class="is-size-5 has-text-weight-bold">
       Software Engineer Contractor at Bond Cleaners & Tailor, Glenside, PA
     </p>
-    <p class="is-size-6 has-text-left orange">October 2021 - November 2021</p>
-    <ul class="is-text-left">
+    <p class="is-size-6 orange">October 2021 - November 2021</p>
+    <ul>
       <li>
         <b><i>Skills and technologies:</i></b> Electron, React, Stripe, Tailwind,
         SQLite, and Excel/Sheets

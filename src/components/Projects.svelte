@@ -1,11 +1,11 @@
 <section id="projects">
   <p class="header-text">projects</p>
 
-  <div class="block content">
-    <p class="is-size-5 has-text-weight-bold has-text-left">
+  <div class="block content has-text-left">
+    <p class="is-size-5 has-text-weight-bold">
       Advent of Code 2021, , December 2021 - Present
     </p>
-    <ul class="is-text-left">
+    <ul>
       <li>
         <b><i>Skills and technologies:</i></b> Rust
       </li>
@@ -20,11 +20,11 @@
     </ul>
   </div>
 
-  <div class="block content">
-    <p class="is-size-5 has-text-weight-bold has-text-left">
+  <div class="block content has-text-left">
+    <p class="is-size-5 has-text-weight-bold">
       Drexel Weekend Warriors Club Website, June 2019 - June 2021
     </p>
-    <ul class="is-text-left">
+    <ul>
       <li>
         <b><i>Skills and technologies:</i></b> Next.js, Redux, Strapi, AWS EC2
       </li>
