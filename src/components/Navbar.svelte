@@ -100,7 +100,6 @@
 
   .navbar {
     width: 50%;
-    padding: 0rem 1rem;
   }
 
   @media only screen and (max-width: 1024px) {

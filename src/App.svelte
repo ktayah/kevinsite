@@ -47,7 +47,7 @@
     padding: 0;
     height: 100%;
     width: 50%;
-    background-image: url("/static/images/me.png");
+    background-image: url("/static/images/me.webp");
     background-size: cover;
   }
 
