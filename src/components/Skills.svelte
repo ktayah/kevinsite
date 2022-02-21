@@ -1,6 +1,6 @@
 <section>
     <p class="header-text">skills & expertise</p>
-    <div class="columns skills">
+    <div class="columns skills has-text-left">
         <ul class="column">
             <li>HTML/CSS/JavaScript</li>
             <li>React Native</li>
