@@ -5,6 +5,7 @@
   import About from "./components/About.svelte";
   import Skills from "./components/Skills.svelte";
   import Experience from "./components/Experience.svelte";
+  import ExperiencePage2 from "./components/ExperiencePage2.svelte"
   import Education from "./components/Education.svelte";
   import Projects from "./components/Projects.svelte";
 
@@ -23,6 +24,7 @@
       <About />
       <Skills />
       <Experience />
+      <ExperiencePage2 />
       <Projects />
       <Education />
     </div>
