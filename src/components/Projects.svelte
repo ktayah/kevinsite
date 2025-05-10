@@ -1,6 +1,45 @@
 <section id="projects">
   <p class="header-text mb-5">projects</p>
 
+<div class="block content has-text-left">
+    <p class="is-size-5 has-text-weight-bold mb-0">Azurex</p>
+    <p class="is-size-6 orange">March 2025 - Present</p>
+    <ul>
+      <li>
+        <b><i>Skills and technologies:</i></b> Elixir, Azure
+      </li>
+      <li>
+        Enhanced Azurex, an Elixir client library for Azure REST APIs, by adding support for Microsoft Azure’s recommended authentication method and SAS token generation, enabling secure and standards-compliant access to Azure Blob Storage.
+      </li>
+      <li>
+        Code available <a
+          class="orange is-size-6"
+          href="https://github.com/ktayah/azurex">here</a
+        >.
+      </li>
+    </ul>
+  </div>
+
+  <div class="block content has-text-left">
+    <p class="is-size-5 has-text-weight-bold mb-0">TypedStructDataFrame</p>
+    <p class="is-size-6 orange">January 2024 - April 2024</p>
+    <ul>
+      <li>
+        <b><i>Skills and technologies:</i></b> Elixir
+      </li>
+      <li>
+        An open-source Elixir library which provide macros that define helper functions to parse and/or generate data-structures with the intent for data science and/or large data exploration
+      </li>
+      <li>
+        Code available <a
+          class="orange is-size-6"
+          href="https://github.com/ktayah/typed_struct_data_frame">here</a
+        >.
+      </li>
+    </ul>
+  </div>
+
+
   <div class="block content has-text-left">
     <p class="is-size-5 has-text-weight-bold mb-0">Personal Website</p>
     <p class="is-size-6 orange">January 2022 - Present</p>
@@ -21,7 +60,7 @@
     </ul>
   </div>
 
-  <div class="block content has-text-left">
+  <!-- <div class="block content has-text-left">
     <p class="is-size-5 has-text-weight-bold mb-0">Advent of Code 2021</p>
     <p class="is-size-6 orange">December 2021 - Present</p>
     <ul>
@@ -39,9 +78,9 @@
         >.
       </li>
     </ul>
-  </div>
+  </div> -->
 
-  <div class="block content has-text-left">
+  <!-- <div class="block content has-text-left">
     <p class="is-size-5 has-text-weight-bold mb-0">
       Drexel Weekend Warriors Club Website
     </p>
@@ -67,7 +106,7 @@
         >.
       </li>
     </ul>
-  </div>
+  </div> -->
 </section>
 
 <style lang="scss">

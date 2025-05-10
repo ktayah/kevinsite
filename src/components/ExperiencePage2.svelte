@@ -3,6 +3,19 @@
 
   <div class="block content has-text-left">
     <p class="is-size-5 has-text-weight-bold mb-0">
+      Senior Software Engineer, Wolf Financial, Philadelphia, PA
+    </p>
+    <p class="is-size-6 orange">March 2021 - December 2021</p>
+    <ul>
+      <li><b><i>Skills and technologies:</i></b> React Native, Node.js, MongoDB, Plaid, Alpaca, Finnhub, Firebase, FFMPEG, D3.js, Jest, AWS Lambda, and AWS Elastic Beanstalk.</li>
+      <li>Organized and planned features between CEO and Head of Design which lead to acquiring <b>angel investments totaling up to $750,000</b> and <b>growing its user base by 400%</b></li>
+      <li><b>Managed and mentored 3 developers</b>, to insure efforts were meeting business goals</li>
+      <li>Interviewed 20+ potential new hires to expand the team</li>
+    </ul>
+  </div>
+
+  <div class="block content has-text-left">
+    <p class="is-size-5 has-text-weight-bold mb-0">
       Software Engineer at Wolf Financial, Philadelphia, PA
     </p>
     <p class="is-size-6 orange">June 2020 - March 2021</p>
@@ -22,7 +35,7 @@
     </ul>
   </div>
 
-  <div class="block content has-text-left">
+  <!-- <div class="block content has-text-left">
     <p class="is-size-5 has-text-weight-bold mb-0">
       Software Engineer Contractor at Bond Cleaners & Tailor, Glenside, PA
     </p>
@@ -51,7 +64,7 @@
         >.
       </li>
     </ul>
-  </div>
+  </div> -->
 </section>
 
 <style lang="scss">
