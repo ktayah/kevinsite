@@ -1,5 +1,4 @@
 <script>
-  import "bulma/css/bulma.scss";
   import Navbar from "./components/Navbar.svelte";
   import Info from "./components/Info.svelte";
   import About from "./components/About.svelte";

@@ -47,6 +47,7 @@ export default {
         sourceMap: !production,
         scss: {
           includePaths: ["node_modules", "src"],
+          silenceDeprecations: ["legacy-js-api", "import"],
         },
         postcss: {
           plugins: [require("autoprefixer")()],
