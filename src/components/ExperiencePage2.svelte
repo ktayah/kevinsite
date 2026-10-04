@@ -26,7 +26,7 @@
         Beanstalk.
       </li>
       <li>
-        Contributed to <b>35% of code-base</b> by implementing core features like
+        Contributed to <b>35% of code-base</b> by implementing core social media features like
         posting and/or viewing images, videos, text, polls, and stock charts on a
         shared feed
       </li>

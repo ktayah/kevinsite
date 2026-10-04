@@ -28,6 +28,7 @@
             <li>Postgres</li>
             <li>RabbitMQ</li>
             <li>Kubernetes</li>
+            <li>Docker</li>
             <li>Terraform</li>
             <li>Fly.io</li>
             <li>Vercel</li>
@@ -38,6 +39,8 @@
             <li>MongoDB</li>
             <li>Git</li>
             <li>Github Actions</li>
+            <li>Tilt</li>
+            <li>Langfuse</li>
         </ul>
     </div>
 </section>
